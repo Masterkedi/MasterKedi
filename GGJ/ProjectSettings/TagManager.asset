@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tile1
+  - OrtaTile
   layers:
   - Default
   - TransparentFX
