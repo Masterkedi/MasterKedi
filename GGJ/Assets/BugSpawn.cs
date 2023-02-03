@@ -26,7 +26,7 @@ public class BugSpawn : MonoBehaviour
 
     void Spawn()
     {
-        float X = Random.Range(minX, maxY);
+        float X = Random.Range(minX, maxX);
         float Y = Random.Range(minY, maxY);
 
         Instantiate(Obstacle, transform.position + new Vector3(X, Y, 0), transform.rotation);
