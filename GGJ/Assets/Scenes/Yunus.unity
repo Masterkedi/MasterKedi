@@ -1276,7 +1276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377448254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.22, y: -9.47, z: 0}
+  m_LocalPosition: {x: -45.4, y: -11.1, z: 0}
   m_LocalScale: {x: 0.92913955, y: 0.92913955, z: 0.92913955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3038,6 +3038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1154422567}
+  - component: {fileID: 1154422568}
   m_Layer: 0
   m_Name: GameMa
   m_TagString: Untagged
@@ -3060,6 +3061,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1154422568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154422566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28983dbef7db5d9429fd7aeac7e767bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tile: {fileID: 1910125740}
+  Tiles: []
+  totaltiles: 0
 --- !u!1 &1301670986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,7 +3474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491798554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.95, y: 4.73, z: 0}
+  m_LocalPosition: {x: -9.55, y: -4.53, z: 0}
   m_LocalScale: {x: 0.2435, y: 0.2435, z: 0.2435}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4832,7 +4848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1943784813
 MonoBehaviour:
   m_ObjectHideFlags: 0
