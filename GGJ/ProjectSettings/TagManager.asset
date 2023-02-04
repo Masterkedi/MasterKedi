@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tile1
   - OrtaTile
+  - "Sar\u0131"
+  - "K\u0131rm\u0131z\u0131"
+  - Yesil
   layers:
   - Default
   - TransparentFX
