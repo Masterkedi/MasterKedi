@@ -8,6 +8,7 @@ public class gameManager : MonoBehaviour
     public GameObject []Tiles;
     [SerializeField]int totalTiles=0;
     [SerializeField]int correctTiles=0;
+    public static  bool winLevel1;
      void Start()
     {
         totalTiles= TileHolder.transform.childCount;
@@ -23,7 +24,8 @@ public class gameManager : MonoBehaviour
         Debug.Log("hahaha");
         if (correctTiles==19)
         {
-            Debug.Log("yOU WÝN");
+            winLevel1= true;
+            
         }
     }
     public void WrongMove()

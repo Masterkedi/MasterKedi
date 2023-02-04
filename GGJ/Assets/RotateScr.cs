@@ -45,8 +45,11 @@ public class RotateScr : MonoBehaviour
     }
     private void OnMouseDown()
     {
-       
+        if (gameManager.winLevel1==false&&PauseMenu.GameIsPaused==false)
+        {
             transform.Rotate(new Vector3(0, 0, 90));
+        }
+            
         if (possibleRot > 1)
         {
             if (transform.eulerAngles.z == correctRotation[0]|| transform.eulerAngles.z == correctRotation[1] && isPlaced==false) 

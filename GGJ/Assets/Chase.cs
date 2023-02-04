@@ -34,12 +34,13 @@ public class Chase : MonoBehaviour
     {
         if (collision.tag == "OrtaTile")
         {
+            Destroy(gameObject);
             var healthComponent = collision.GetComponent<Hitpoint>();
             if(healthComponent != null)
             {
                 healthComponent.TakeHit(1);
             }
-            Destroy(gameObject);
+            
         }
         
     }
