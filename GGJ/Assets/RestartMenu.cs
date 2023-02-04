@@ -26,7 +26,8 @@ public class RestartMenu : MonoBehaviour
     }
     public void Restart()
     {
-        
+        gameManager.winLevel1 = false;
+        Hitpoint.loseGame = false;
         SceneManager.LoadScene(2);
         Time.timeScale = 1f;
 
