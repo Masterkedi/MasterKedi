@@ -21,7 +21,7 @@ public class gameManager : MonoBehaviour
     public void correctMove() 
     {
         correctTiles += 1;
-        Debug.Log("hahaha");
+        
         if (correctTiles==totalTiles)
         {
             winLevel1= true;
@@ -31,7 +31,7 @@ public class gameManager : MonoBehaviour
     public void WrongMove()
     {
             correctTiles-= 1;
-        Debug.Log("WWWWW");
+        
     }
 
 }
