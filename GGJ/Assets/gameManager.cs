@@ -22,7 +22,7 @@ public class gameManager : MonoBehaviour
     {
         correctTiles += 1;
         Debug.Log("hahaha");
-        if (correctTiles==19)
+        if (correctTiles==totalTiles)
         {
             winLevel1= true;
             
