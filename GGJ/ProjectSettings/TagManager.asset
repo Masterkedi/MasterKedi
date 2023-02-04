@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tile1
   - OrtaTile
+  - Bug1
   layers:
   - Default
   - TransparentFX
