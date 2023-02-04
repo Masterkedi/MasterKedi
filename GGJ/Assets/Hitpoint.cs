@@ -14,18 +14,20 @@ public class Hitpoint : MonoBehaviour
     {
         Hitpoints = MaxHitpoints;
     }
+   
 
     public void TakeHit(float damage)
     {
         
         Hitpoints -= damage;
-        slider.value = Hitpoints;
+        slider.value = Hitpoints;   
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
             Debug.Log("YOU LOSE THE GAME");
         }
     }
+    
    
    
 
