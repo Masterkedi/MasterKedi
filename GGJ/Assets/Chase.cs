@@ -25,7 +25,9 @@ public class Chase : MonoBehaviour
         distance = Vector2.Distance(transform.position, OrtaTile.transform.position);
         Vector2 direction = OrtaTile.transform.position - transform.position;
 
+
         transform.position = Vector2.MoveTowards(this.transform.position, OrtaTile.transform.position, speed * Time.deltaTime);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,5 +41,6 @@ public class Chase : MonoBehaviour
             }
             Destroy(gameObject);
         }
+        
     }
 }

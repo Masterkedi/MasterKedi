@@ -21,15 +21,4 @@ public class Hitpoint : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        var enemy = collision.collider.GetComponent<Hitpoint>();
-        if (enemy)
-        {
-            enemy.TakeHit(1);
-        }
-        Destroy(gameObject);
-    }*/
-
 }
