@@ -8,6 +8,7 @@ public class Hitpoint : MonoBehaviour
     public  float Hitpoints;
     public static float MaxHitpoints = 5;
     public Slider slider;
+    public static bool loseGame;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class Hitpoint : MonoBehaviour
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
-            Debug.Log("YOU LOSE THE GAME");
+            loseGame= true;
         }
     }
     
