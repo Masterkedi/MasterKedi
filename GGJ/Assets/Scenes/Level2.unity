@@ -1130,7 +1130,7 @@ Transform:
   m_GameObject: {fileID: 195895159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.42999995, y: -1.21, z: 49.60734}
-  m_LocalScale: {x: 0.7138823, y: 0.7138823, z: 0.6068}
+  m_LocalScale: {x: 0.71388227, y: 0.71388227, z: 0.6068}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1609680323}
@@ -1215,7 +1215,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.104011774, y: 0.064905226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1226,7 +1226,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8373984, y: 1.9756098}
+  m_Size: {x: 0.7954588, y: 0.96094406}
   m_EdgeRadius: 0
 --- !u!1 &201108515
 GameObject:
@@ -1473,7 +1473,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 630204144, guid: b9ee2abdd34624c47998fc68a163eb80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2277,7 +2277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8207c44b0e67e5418d70b755b060b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrtaTile: {fileID: 0}
+  OrtaTile: {fileID: 195895159}
   speed: 0.2
 --- !u!50 &360201262
 Rigidbody2D:
@@ -6397,7 +6397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8207c44b0e67e5418d70b755b060b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrtaTile: {fileID: 0}
+  OrtaTile: {fileID: 195895159}
   speed: 0.3
 --- !u!50 &1436146894
 Rigidbody2D:
@@ -6674,7 +6674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8207c44b0e67e5418d70b755b060b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrtaTile: {fileID: 0}
+  OrtaTile: {fileID: 195895159}
   speed: 0.1
 --- !u!50 &1470609205
 Rigidbody2D:
@@ -7776,7 +7776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8207c44b0e67e5418d70b755b060b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrtaTile: {fileID: 0}
+  OrtaTile: {fileID: 195895159}
   speed: 0.3
 --- !u!50 &1641920771
 Rigidbody2D:
@@ -8459,7 +8459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8207c44b0e67e5418d70b755b060b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OrtaTile: {fileID: 0}
+  OrtaTile: {fileID: 195895159}
   speed: 0.1
 --- !u!50 &1879759708
 Rigidbody2D:

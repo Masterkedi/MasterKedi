@@ -6,8 +6,8 @@ using UnityEngine;
 public class İlacsecme : MonoBehaviour
 {
     public static bool hasSarı;
-    public static bool hasYes;
-    public static  bool hasKır;
+    public static bool hasMor;
+    public static  bool hasYes;
     public GameObject BugSarı;
      
 
@@ -16,27 +16,27 @@ public class İlacsecme : MonoBehaviour
     { 
         if (Input.GetKey(KeyCode.Alpha1))
         {
+            hasMor= false;
             hasYes= false;
-            hasKır= false;
             hasSarı= true;
-            Debug.Log("Sa");
+            
+            
+        }
+        if (Input.GetKey(KeyCode.Alpha3))
+        {
+            
+            hasYes = false;
+            hasSarı = false;
+            hasMor = true;
             
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             
-            hasKır = false;
             hasSarı = false;
+            hasMor = false;
             hasYes = true;
-            Debug.Log("Yes");
-        }
-        if (Input.GetKey(KeyCode.Alpha3))
-        {
             
-            hasSarı = false;
-            hasYes = false;
-            hasKır = true;
-            Debug.Log("Kır");
         }
        
         

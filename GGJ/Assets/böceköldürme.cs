@@ -9,17 +9,17 @@ public class böceköldürme : MonoBehaviour
     
     void OnMouseDown()
     {
-        if (İlacsecme.hasSarı==true&&tag=="Bug1")
+        if (İlacsecme.hasSarı==true&&tag=="Bug3")
         {
             Destroy(gameObject);
-            Debug.Log("Sarı VARRRR");
+            
         }
         
-        if (İlacsecme.hasYes == true && tag == "Bug2")
+        if (İlacsecme.hasMor == true && tag == "Bug1")
         {
             Destroy(gameObject);
         }
-        if (İlacsecme.hasKır == true && tag == "Bug3")
+        if (İlacsecme.hasYes == true && tag == "Bug2")
         {
             Destroy(gameObject);
         }
