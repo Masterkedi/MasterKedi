@@ -845,7 +845,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: 488eb3b78e479cb48851d7204c8e042a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c882eceeae61da4ab5f12acfe84d7af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -995,7 +995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &277035986
 GameObject:
@@ -1121,7 +1123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &313200461
 GameObject:
@@ -1247,7 +1250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &336947422
 GameObject:
@@ -1622,7 +1626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
+  - 270
   isPlaced: 0
 --- !u!1 &375775614
 GameObject:
@@ -2075,7 +2081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &519420028
 GameObject:
@@ -2333,7 +2341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!212 &554950627
 SpriteRenderer:
@@ -2663,7 +2672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &609405365
 GameObject:
@@ -2789,7 +2800,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &656078103
 GameObject:
@@ -2915,7 +2928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 180
   isPlaced: 0
 --- !u!1 &678143243
 GameObject:
@@ -3343,7 +3357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &698405270
 GameObject:
@@ -3469,7 +3485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &728590387
 GameObject:
@@ -3671,7 +3689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
   isPlaced: 0
 --- !u!1 &745455472
 GameObject:
@@ -3973,7 +3992,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &802808847
 GameObject:
@@ -4412,7 +4433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
   isPlaced: 0
 --- !u!1 &856049124
 GameObject:
@@ -4924,7 +4946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &1036261809
 GameObject:
@@ -5050,7 +5073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &1087335979
 GameObject:
@@ -5302,7 +5327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 270
   isPlaced: 0
 --- !u!1 &1128290508
 GameObject:
@@ -5428,7 +5454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 180
   isPlaced: 0
 --- !u!1 &1131758701
 GameObject:
@@ -5981,7 +6008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 180
   isPlaced: 0
 --- !u!1 &1307001118
 GameObject:
@@ -6107,7 +6135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 270
   isPlaced: 0
 --- !u!1 &1310573583
 GameObject:
@@ -6418,7 +6447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 180
   isPlaced: 0
 --- !u!1 &1375739728
 GameObject:
@@ -6795,7 +6825,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &1403391441
 GameObject:
@@ -7147,7 +7179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &1491798554
 GameObject:
@@ -7424,7 +7458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 270
   isPlaced: 0
 --- !u!1 &1545955526
 GameObject:
@@ -7923,7 +7958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &1630916212
 GameObject:
@@ -8183,7 +8219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 270
   isPlaced: 0
 --- !u!1 &1632615903
 GameObject:
@@ -8687,7 +8724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
   isPlaced: 0
 --- !u!1 &1759840936
 GameObject:
@@ -8813,7 +8851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
   isPlaced: 0
 --- !u!1 &1783835926
 GameObject:
@@ -8939,7 +8978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &1785646384
 GameObject:
@@ -9933,7 +9974,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &1998101684
 GameObject:
@@ -10059,7 +10102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 90
   isPlaced: 0
 --- !u!1 &2025064628
 GameObject:
@@ -10185,7 +10229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &2038973903
 GameObject:
@@ -10437,7 +10483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2b8ecaaf5fc4b489cd966265082259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
+  - 180
   isPlaced: 0
 --- !u!1 &2074392467
 GameObject:
