@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class Timer : MonoBehaviour
 {
     public Slider slider;
     float currentTime = 0f;
-    float startingTime=120f;
+    float startingTime=10f;
+    public static bool comStage;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +27,10 @@ public class Timer : MonoBehaviour
             if (currentTime <= 0)
             {
                 currentTime = 0;
-                Debug.Log("YOU WÝN");
+                comStage= true;
+                gameManager.winLevel1 = false;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+                
             }
         }
         
