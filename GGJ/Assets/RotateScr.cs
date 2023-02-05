@@ -9,6 +9,7 @@ public class RotateScr : MonoBehaviour
     public float [] correctRotation;
     
     [SerializeField]bool isPlaced=false;
+    [SerializeField] AudioClip Rot;
     int possibleRot = 1;
     gameManager gameManager;
     
@@ -48,6 +49,7 @@ public class RotateScr : MonoBehaviour
         if (gameManager.winLevel1==false&&PauseMenu.GameIsPaused==false)
         {
             transform.Rotate(new Vector3(0, 0, 90));
+            GetComponent<AudioSource>().PlayOneShot(Rot);
         }
             
         if (possibleRot > 1)

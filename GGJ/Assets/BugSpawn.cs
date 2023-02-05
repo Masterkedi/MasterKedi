@@ -15,10 +15,12 @@ public class BugSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameManager.winLevel1 == true) { 
-        if(Time.time > SpawnTime)
+        if (gameManager.winLevel1 == true) {
+            
+            if (Time.time > SpawnTime)
         {
-            Spawn();
+                
+                Spawn();
             SpawnTime = Time.time + TimeBetweenSpawn;
         }
         }

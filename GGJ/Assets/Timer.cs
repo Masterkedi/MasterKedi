@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
 {
     public Slider slider;
     float currentTime = 0f;
-    float startingTime=40f;
+    float startingTime=50f;
     public static bool comStage;
     // Start is called before the first frame update
     void Start()
